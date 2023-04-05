@@ -1,4 +1,4 @@
-public class DegiskenInt {
+public class DegisInt {
     public static void main(String[] args) {
         int numberOne, numberTwo, numberTree;
         numberOne = 1;

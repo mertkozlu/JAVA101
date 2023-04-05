@@ -1,4 +1,4 @@
-public class Charbloolean {
+public class Charboolean {
     public static void main(String[] args) {
         /*char karakter saklamak için kullanılan veri tipi.
         Charda metin, sözcük yazamıyoruz. harf yazdığımız da ise
