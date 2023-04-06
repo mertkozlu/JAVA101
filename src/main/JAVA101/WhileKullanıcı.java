@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class While2 {
+public class WhileKullanıcı {
     public static void main(String[] args) {
        int password;
        boolean isPasswordSuccess = false;

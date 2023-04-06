@@ -22,7 +22,7 @@ public class KullaniciGirisi {
             System.out.print("Şifre:");
             password = input.nextLine();
 
-            if (password.equals("mert123") && (phone.equals("05515932206"))) {
+            if (password.equals("mert123") && (phone.equals("05555555555"))) {
                 System.out.println("Giriş Yapıldı!");
 
             }else {
