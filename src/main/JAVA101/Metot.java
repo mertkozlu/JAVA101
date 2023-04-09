@@ -4,11 +4,11 @@ public class Metot {
         System.out.println("Hello World !");
     }
     static int power(int base, int exp) {
-        int resault = 1;
+        int result = 1;
         for (int i = 1; i <= exp; i++) {
-            resault *= base;
+            result *= base;
         }
-        return resault;
+        return result;
     }
     public static void main(String[] args) {
         System.out.println(power(2,3));
