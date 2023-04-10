@@ -1,4 +1,4 @@
-public class CarOpp {
+public class CarOop {
     public static void main(String[] args) {
         Car audi = new Car("Audi", 100,"Blue");
         audi.printInfo();

@@ -1,3 +1,8 @@
+package OOP;
+
+import OOP.Course;
+import OOP.Teacher;
+
 public class StudentInformationSystem {
     public static void main(String[] args) {
 

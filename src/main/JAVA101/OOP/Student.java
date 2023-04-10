@@ -1,3 +1,7 @@
+package OOP;
+
+import OOP.Course;
+
 public class Student {
     Course courseOne;
     Course courseTwo;
