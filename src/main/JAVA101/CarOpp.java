@@ -1,10 +1,7 @@
 public class CarOpp {
     public static void main(String[] args) {
-        Car audi = new Car();
-        audi.model = "Audi";
-        audi.speed = 10;
-        audi.increaseSpeed(20);
-        audi.printSpeed();
+        Car audi = new Car("Audi", 100,"Blue");
+        audi.printInfo();
 
         Car bmw = new Car();
         bmw.model = "BMW";
@@ -18,5 +15,6 @@ public class CarOpp {
         mercedes.increaseSpeed(100);
         mercedes.decreaseSpeed(20);
         mercedes.printSpeed();
+
     }
 }

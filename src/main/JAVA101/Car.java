@@ -3,24 +3,44 @@ public class Car {
     String type;
     String model;
     String color;
-    // davranışlar
     int speed;
-    int speedLimit = 180;
+    int speedLimit;
+
+    Car(String model, int speed, String color)  {
+        this.model = model;
+        this.speed = speed;
+        this.color = color;
+        this.type = "Sedan";
+        this.speedLimit = 180;
+
+    }
+
+    Car() {
+        System.out.println();
+    }
 
     void increaseSpeed(int increment) {
-        if((speed + increment) < 180) {
-            speed += increment;
+        if((this.speed + increment) < 180) {
+            this.speed += increment;
         }
     }
 
     void decreaseSpeed(int decrease) {
-        if(speed > 0) {
-            speed -= decrease;
+        if(this.speed > 0) {
+            this.speed -= decrease;
         }
     }
 
     void printSpeed() {
-        System.out.println(model + " Hızınız : " + speed);
+        System.out.println(this.model + " Hızınız : " + this.speed);
+    }
+
+    void printInfo() {
+        System.out.println("Model\t:" + this.model);
+        System.out.println("Color\t:" + this.color);
+        System.out.println("Type\t:" + this.type);
+        System.out.println("Speed\t:" + this.speed);
+
     }
 
 }
