@@ -43,9 +43,9 @@ public class Student {
     public void isPass() {
         this.avarage = (courseOne.note + courseTwo.note + courseTree.note ) / 3.0;
         if (this.avarage > 55){
-            System.out.println("Geçti\n");
+            System.out.println("Ortalama : " + this.avarage +"\nGeçti\n");
         }else {
-            System.out.println("Kaldı.\n");
+            System.out.println("Ortalama : " + this.avarage + "\nKaldı.\n");
         }
 
     }
