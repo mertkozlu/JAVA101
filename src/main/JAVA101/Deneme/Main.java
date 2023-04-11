@@ -10,14 +10,20 @@ public class Main {
         bianchi.name =  "Bian X17";
         bianchi.speed = 5;
         bianchi.increaseSpeed(5);
-        bianchi.printSpeedGear();
+        bianchi.printSpeed();
+        bianchi.gearShift();
+        bianchi.setGearNumber();
+
 
         Bicycle carraro = new Bicycle();
         carraro.name =  "Carr A5";
         carraro.speed = 5;
-        carraro.increaseSpeed(15);
+        carraro.increaseSpeed(5);
         carraro.decreaseSpeed(5);
-        carraro.printSpeedGear();
+        carraro.printSpeed();
+        carraro.gearShift();
+        carraro.setGearNumber();
+
 
 
 

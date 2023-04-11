@@ -1,5 +1,7 @@
 package Deneme;
 
+import java.sql.SQLOutput;
+
 public class Bicycle {
     String name;
     int wheelNumber;
@@ -11,7 +13,7 @@ public class Bicycle {
         this.name = name;
         this.wheelNumber = wheelNumber;
         this.color = color;
-        this.gearNumber = 3;
+        this.gearNumber = gearNumber;
         this.speed = 20;
     }
 
@@ -31,19 +33,28 @@ public class Bicycle {
         }
     }
 
-    void gearShift(int gearNumber) {
-        if(speed >= 5) {
+    int gearShift() {
+        if(speed >= 0 && speed <=5 ) {
             this.gearNumber = 1;
+            return gearNumber;
         } else if (speed <= 10 && speed > 5 ) {
             this.gearNumber = 2;
+            return gearNumber;
         } else if (speed <= 15 && speed > 10) {
             this.gearNumber = 3;
+            return gearNumber;
         }else {
             this.gearNumber = 4;
+            return gearNumber;
         }
+
     }
-    void printSpeedGear() {
-        System.out.println("\n" + this.name + "\nHızınız :" + speed + "\nVites : " + gearNumber);
+
+    void setGearNumber() {
+        System.out.println("Vites : " + gearNumber);
+    }
+    void printSpeed() {
+        System.out.println("\n" + this.name + "\nHızınız :" + speed );
     }
 
     void addBicycle() {
