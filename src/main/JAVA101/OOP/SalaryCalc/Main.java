@@ -1,4 +1,4 @@
-package OOP.MaasHesaplayici;
+package OOP.SalaryCalc;
 
 public class Main {
     public static void main(String [] args) {
