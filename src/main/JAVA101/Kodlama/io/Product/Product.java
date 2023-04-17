@@ -1,11 +1,12 @@
-package OOP.Product;
+package Kodlama.io.Product;
 
 public class Product {
-    private String name;
-    private double unitPrice;
-    private double discount;
-    private String imageUrl;
-    private int unitInStock;
+    //attribute (field)
+     private String name;
+     private double unitPrice;
+     private double discount;
+     private String imageUrl;
+     private int unitInStock;
 
     public String getName() {
         return name;
@@ -46,7 +47,6 @@ public class Product {
     public void setUnitInStock(int unitInStock) {
         this.unitInStock = unitInStock;
     }
-
 
 
 }

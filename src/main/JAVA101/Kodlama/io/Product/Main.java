@@ -1,4 +1,4 @@
-package OOP.Product;
+package Kodlama.io.Product;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
-package OOP.Customers;
-
+package Kodlama.io.Customers;
+//Inheritance
 public class CorporateCustomer extends Customer {
     private String companyName;
     private String taxNumber;

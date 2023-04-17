@@ -1,4 +1,4 @@
-package OOP.Customers;
+package Kodlama.io.Customers;
 
 public class Customer {
     private int id;

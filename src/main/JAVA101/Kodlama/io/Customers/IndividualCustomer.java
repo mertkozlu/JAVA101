@@ -1,4 +1,4 @@
-package OOP.Customers;
+package Kodlama.io.Customers;
 
 public class IndividualCustomer extends Customer {
     private String firstName;

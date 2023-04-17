@@ -1,4 +1,4 @@
-package Beginning;
+package Kodlama.io;
 
 import java.util.Scanner;
 public class ProductList {
