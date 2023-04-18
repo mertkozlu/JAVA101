@@ -20,6 +20,7 @@ public class CorporateCustomer extends Customer {
     }
 
     public void setTaxNumber(String taxNumber) {
+
         this.taxNumber = taxNumber;
     }
 

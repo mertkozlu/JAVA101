@@ -6,6 +6,7 @@ public class Customer {
     private String phone;
 
     public int getId() {
+
         return id;
     }
 
