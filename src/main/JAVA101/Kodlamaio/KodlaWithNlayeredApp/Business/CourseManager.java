@@ -19,14 +19,14 @@ public class CourseManager {
     }
     public void add(Course course) throws Exception {
         for (Course course1 : courses) {
-            if(course.getName().equals(course1.getName())) {
+            if(course1.getName() == course.getName()) {
                 throw new Exception("Kurs zaten var !");
-            } else if (course.getPrice() < 0) {
-                throw new Exception("Kurs ücreti 0'dan küçük olamaz !");
-            }else {
-                courseDao.add(course);
             }
+        }if (course.getPrice() < 0) {
+            throw new Exception("Kurs ücreti 0'dan küçük olamaz !");
         }
+        courseDao.add(course);
+        courses.add(course);
         for (Logger logger : loggers) {
             logger.log(course.getName());
         }

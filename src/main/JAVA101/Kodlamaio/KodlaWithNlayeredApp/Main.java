@@ -24,13 +24,11 @@ public class Main {
         categoryManager.add(category1);
 
         Course course = new Course(1,"Java",80);
+        Course course2 = new Course(2,"C#",80);
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
         CourseManager courseManager = new CourseManager(new JdbcDao(),loggers, courseArrayList);
         courseManager.add(course);
-
-        Course course2 = new Course(2,"Java",80);
-        CourseManager courseManager2 = new CourseManager(new JdbcDao(),loggers, courseArrayList);
-        courseManager2.add(course2);
+        courseManager.add(course2);
 
 
         Instructor instructor = new Instructor("Engin");
