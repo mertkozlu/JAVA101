@@ -20,7 +20,7 @@ public class CategoryManager {
 
     public void add(Category category) throws Exception {
         for (Category category1 : categories) {
-            if (category.getName().equals(category1.getName())) {
+            if (category1.getName() == category.getName()) {
                 throw new Exception("Kategori zaten var !");
             }
         }

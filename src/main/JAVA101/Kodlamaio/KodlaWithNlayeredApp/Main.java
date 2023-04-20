@@ -19,9 +19,11 @@ public class Main {
         Logger[] loggers = {new DatabaseLogger(), new FileLogger(), new MailLogger()};
 
         Category category1 = new Category("Programming");
+        Category category2 = new Category("P");
         ArrayList<Category> categoryArrayList = new ArrayList<Category>();
         CategoryManager categoryManager = new CategoryManager(new JdbcDao(),loggers, categoryArrayList);
         categoryManager.add(category1);
+        categoryManager.add(category2);
 
         Course course = new Course(1,"Java",80);
         Course course2 = new Course(2,"C#",80);
