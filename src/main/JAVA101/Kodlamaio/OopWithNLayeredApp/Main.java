@@ -15,7 +15,7 @@ public class Main {
 
         Logger[] loggers = {new DatabaseLogger(), new FileLogger(), new MailLogger()};
 
-        ProductManager productManager = new ProductManager(new HibernateProductDao(), loggers);
+        ProductManager productManager = new ProductManager(new JdbcProductDao(), loggers);
         productManager.add(product1);
 
     }

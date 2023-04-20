@@ -9,8 +9,8 @@ import Kodlamaio.OopWithNLayeredApp.Entities.Product;
 import java.util.List;
 
 public class ProductManager {
-    private ProductDao productDao;
-    private  Logger [] loggers;
+    private final ProductDao productDao;
+    private final Logger [] loggers;
 
     public ProductManager(ProductDao productDao, Logger[] loggers) {
         this.productDao = productDao;
