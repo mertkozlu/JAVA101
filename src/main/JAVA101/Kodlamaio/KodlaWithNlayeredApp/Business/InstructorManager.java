@@ -3,9 +3,7 @@ package Kodlamaio.KodlaWithNlayeredApp.Business;
 import Kodlamaio.KodlaWithNlayeredApp.DataAccess.InstructorDao;
 import Kodlamaio.KodlaWithNlayeredApp.Entities.Instructor;
 import Kodlamaio.KodlaWithNlayeredApp.Logging.Logger;
-
 import java.util.ArrayList;
-
 
 public class InstructorManager  {
     private final InstructorDao instructorDao;

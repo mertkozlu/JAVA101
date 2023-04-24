@@ -3,7 +3,6 @@ package Kodlamaio.KodlaWithNlayeredApp.Entities;
 public class Course {
     private int id;
     private String name;
-
     private double price;
 
     public Course() {
@@ -13,22 +12,16 @@ public class Course {
         this.id = id;
         this.name = name;
         this.price = price;
-
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }

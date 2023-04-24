@@ -25,27 +25,19 @@ public class Main {
         categoryManager.add(category1);
         categoryManager.add(category2);
 
-        Course course = new Course(1,"Java",80);
+        Course course1 = new Course(1,"Java",80);
         Course course2 = new Course(2,"C#",80);
         ArrayList<Course> courseArrayList = new ArrayList<Course>();
         CourseManager courseManager = new CourseManager(new JdbcDao(),loggers, courseArrayList);
-        courseManager.add(course);
+        courseManager.add(course1);
         courseManager.add(course2);
 
-
-        Instructor instructor = new Instructor("Engin");
+        Instructor instructor1 = new Instructor("Engin");
+        Instructor instructor2 = new Instructor("Hakkı");
         ArrayList<Instructor> instructorArrayList = new ArrayList<Instructor>();
         InstructorManager instructorManager = new InstructorManager(new JdbcDao(), loggers, instructorArrayList);
-        instructorManager.add(instructor);
-
-        Instructor instructor2 = new Instructor("Hakkı");
-        InstructorManager instructorManager2 = new InstructorManager(new JdbcDao(), loggers, instructorArrayList);
-        instructorManager2.add(instructor2);
-
-
-
-
-
+        instructorManager.add(instructor1);
+        instructorManager.add(instructor2);
 
     }
 }

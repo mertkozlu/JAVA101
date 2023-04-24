@@ -3,10 +3,7 @@ package Kodlamaio.KodlaWithNlayeredApp.Business;
 import Kodlamaio.KodlaWithNlayeredApp.DataAccess.CourseDao;
 import Kodlamaio.KodlaWithNlayeredApp.Entities.Course;
 import Kodlamaio.KodlaWithNlayeredApp.Logging.Logger;
-
 import java.util.ArrayList;
-
-
 public class CourseManager {
     private final CourseDao courseDao;
     private final Logger[] loggers;
